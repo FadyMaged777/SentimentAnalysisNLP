@@ -11,8 +11,6 @@ This project implements a Long Short-Term Memory (LSTM) neural network for binar
 - Sequences padded/truncated to 500 tokens
 
 ## Model Architecture
-```python
-```
 Sequential(
     Embedding(input_dim=10000, output_dim=32, input_length=500),
     LSTM(32),
